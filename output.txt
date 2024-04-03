@@ -1,0 +1,53 @@
+Resolved(
+    Some(
+        Ty {
+             hir_id: HirId(DefId(0:237 ~ lazy_get_not_set[17e3]::mycontract::MyContract).21), 
+             kind: 
+                Path(Resolved(None, Path { span: lib.rs:14:20: 14:38 (#0), 
+                res: Def(Struct, DefId(67:160 ~ ink_storage[e287]::lazy::Lazy)), 
+                segments: [
+                PathSegment { 
+                    ident: Lazy#0, hir_id: HirId(DefId(0:237 ~ lazy_get_not_set[17e3]::mycontract::MyContract).26), 
+                    res: Def(Struct, DefId(67:160 ~ ink_storage[e287]::lazy::Lazy)), 
+                    args: Some(
+                        GenericArgs { 
+                            args: [
+                                Type(
+                                    Ty { 
+                                        hir_id: HirId(DefId(0:237 ~ lazy_get_not_set[17e3]::mycontract::MyContract).22), 
+                                        kind: Path(
+                                            Resolved(
+                                                None, 
+                                                Path { 
+                                                    span: lib.rs:14:25: 14:37 (#0), 
+                                                    res: Def(Struct, DefId(5:6959 ~ alloc[e6bc]::vec::Vec)), 
+                                                    segments: [
+                                                        PathSegment { 
+                                                            ident: Vec#0, hir_id: HirId(DefId(0:237 ~ lazy_get_not_set[17e3]::mycontract::MyContract).25), 
+                                                            res: Def(
+                                                                Struct, 
+                                                                DefId(5:6959 ~ alloc[e6bc]::vec::Vec)), 
+                                                                args: 
+                                                                Some(
+                                                                    GenericArgs { 
+                                                                        args: [
+                                                                            Type(
+                                                                                Ty { 
+                                                                                    hir_id: HirId(DefId(0:237 ~ lazy_get_not_set[17e3]::mycontract::MyContract).23), 
+                                                                                    kind: Path(
+                                                                                        Resolved(
+                                                                                            None, 
+                                                                                            Path { 
+                                                                                                span: lib.rs:14:29: 14:36 (#0), 
+                                                                                                res: Def(
+                                                                                                    TyAlias, 
+                                                                                                    DefId(0:8 ~ lazy_get_not_set[17e3]::mycontract::Balance)), 
+                                                                                                    segments: [
+                                                                                                        PathSegment { 
+                                                                                                            ident: Balance#0, 
+                                                                                                            hir_id: HirId( DefId(0:237 ~ lazy_get_not_set[17e3]::mycontract::MyContract).24), 
+                                                                                                            res: Def(TyAlias, DefId(0:8 ~ lazy_get_not_set[17e3]::mycontract::Balance)), 
+                                                                                                            args: None, 
+                                                                                                            infer_args: false 
+                                                                                                            }
+                                                                                                        ] })), span: lib.rs:14:29: 14:36 (#0) })], bindings: [], parenthesized: No, span_ext: lib.rs:14:28: 14:37 (#0) }), infer_args: false }] })), span: lib.rs:14:25: 14:37 (#0) })], bindings: [], parenthesized: No, span_ext: lib.rs:14:24: 14:38 (#0) }), infer_args: false }] })), span: lib.rs:14:20: 14:38 (#0) }), Path { span: lib.rs:14:20: 14:38 (#0), res: Def(AssocTy, DefId(22:89 ~ ink_storage_traits[847d]::storage::AutoStorableHint::Type)), segments: [PathSegment { ident: {{root}}#0, hir_id: HirId(DefId(0:237 ~ lazy_get_not_set[17e3]::mycontract::MyContract).27), res: Err, args: None, infer_args: false }, PathSegment { ident: ink#0, hir_id: HirId(DefId(0:237 ~ lazy_get_not_set[17e3]::mycontract::MyContract).28), res: Def(Mod, DefId(20:0 ~ ink[1e6e])), args: None, infer_args: false }, PathSegment { ident: storage#0, hir_id: HirId(DefId(0:237 ~ lazy_get_not_set[17e3]::mycontract::MyContract).29), res: Def(Mod, DefId(20:435 ~ ink[1e6e]::storage)), args: None, infer_args: false }, PathSegment { ident: traits#0, hir_id: HirId(DefId(0:237 ~ lazy_get_not_set[17e3]::mycontract::MyContract).30), res: Def(Mod, DefId(20:436 ~ ink[1e6e]::storage::traits)), args: None, infer_args: false }, PathSegment { ident: AutoStorableHint#0, hir_id: HirId(DefId(0:237 ~ lazy_get_not_set[17e3]::mycontract::MyContract).40), res: Def(Trait, DefId(22:87 ~ ink_storage_traits[847d]::storage::AutoStorableHint)), args: Some(GenericArgs { args: [Type(Ty { hir_id: HirId(DefId(0:237 ~ lazy_get_not_set[17e3]::mycontract::MyContract).31), kind: Path(Resolved(None, Path { span: lib.rs:14:20: 14:38 (#0), res: Def(Struct, DefId(22:219 ~ ink_storage_traits[847d]::impls::ManualKey)), segments: [PathSegment { ident: {{root}}#0, hir_id: HirId(DefId(0:237 ~ lazy_get_not_set[17e3]::mycontract::MyContract).32), res: Err, args: None, infer_args: false }, PathSegment { ident: ink#0, hir_id: HirId(DefId(0:237 ~ lazy_get_not_set[17e3]::mycontract::MyContract).33), res: Def(Mod, DefId(20:0 ~ ink[1e6e])), args: None, infer_args: false }, PathSegment { ident: storage#0, hir_id: HirId(DefId(0:237 ~ lazy_get_not_set[17e3]::mycontract::MyContract).34), res: Def(Mod, DefId(20:435 ~ ink[1e6e]::storage)), args: None, infer_args: false }, PathSegment { ident: traits#0, hir_id: HirId(DefId(0:237 ~ lazy_get_not_set[17e3]::mycontract::MyContract).35), res: Def(Mod, DefId(20:436 ~ ink[1e6e]::storage::traits)), args: None, infer_args: false }, PathSegment { ident: ManualKey#0, hir_id: HirId(DefId(0:237 ~ lazy_get_not_set[17e3]::mycontract::MyContract).39), res: Def(Struct, DefId(22:219 ~ ink_storage_traits[847d]::impls::ManualKey)), args: Some(GenericArgs { args: [Const(ConstArg { value: AnonConst { hir_id: HirId(DefId(0:237 ~ lazy_get_not_set[17e3]::mycontract::MyContract).36), def_id: DefId(0:241 ~ lazy_get_not_set[17e3]::mycontract::MyContract::large_vec::{constant#0}), body: BodyId { hir_id: HirId(DefId(0:237 ~ lazy_get_not_set[17e3]::mycontract::MyContract).37) } }, span: lib.rs:8:5: 15:6 (#10), is_desugared_from_effects: false }), Type(Ty { hir_id: HirId(DefId(0:237 ~ lazy_get_not_set[17e3]::mycontract::MyContract).38), kind: Tup([]), span: lib.rs:8:5: 15:6 (#10) })], bindings: [], parenthesized: No, span_ext: lib.rs:14:20: 14:38 (#0) }), infer_args: false }] })), span: lib.rs:14:20: 14:38 (#0) })], bindings: [], parenthesized: No, span_ext: lib.rs:14:20: 14:38 (#0) }), infer_args: false }, PathSegment { ident: Type#0, hir_id: HirId(DefId(0:237 ~ lazy_get_not_set[17e3]::mycontract::MyContract).41), res: Def(AssocTy, DefId(22:89 ~ ink_storage_traits[847d]::storage::AutoStorableHint::Type)), args: None, infer_args: false }] })
