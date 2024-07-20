@@ -1,6 +1,6 @@
 # Adventures in kernel land
 
-I'm just following [The Adventures of OS: Making a RISC-V Operating System using Rust](https://osblog.stephenmarz.com/index.html)
+Basicamente estoy leyendo y haciendo lo que[Meyer Zinn tutorial](https://meyerzinn.tech/posts/2023/03/05/running-rust-code-on-risc-v-in-qemu/) escribió.
 
 Don't use this repo as a learning source since it will have my notes as I go through the tutorial. Keep in my mind that I'm a beginner.
 
